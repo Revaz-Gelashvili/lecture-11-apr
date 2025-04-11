@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 14px;
+  color: rgba(223, 97, 52, 1);
+  line-height: 24.83px;
+  font-size: 15px;
+  letter-spacing: 0.47px;
+  font-weight: 600;
+}
+
+.title li {
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-list {
+  width: 1270px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 459px;
+  margin-top: 20px;
+}
+
+.every-item {
+  flex: 0 0 283px;
+}
+.item-img {
+  width: 100%;
+  background-size: cover;
+  min-height: 283px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 34px;
+}
+
+.img1 {
+  background-image: url(../images/watch-ultra.png);
+}
+.img2 {
+  background-image: url(../images/j-pods.png);
+}
+.img3 {
+  background-image: url(../images/series-j-13.png);
+}
+.img4 {
+  background-image: url(../images/leather-cover.png);
+}
+
+.item-description {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.item-description h3 {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(20, 27, 18, 1);
+}
+
+.item-description p {
+  margin-top: 13px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.item-btn {
+  background-color: rgba(253, 111, 94, 1);
+  margin-top: 13px;
+  border-radius: 34px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  width: 160px;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 7px;
+}
+
+.new-price {
+  color: rgba(47, 160, 19, 1);
+}
+
+.old-price {
+  color: rgba(73, 77, 72, 1);
+}
